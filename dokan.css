@@ -1,0 +1,137 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+
+.active{
+    background-color: red !important;
+}
+
+.top-links {transition: 0.3s;}
+
+.top-links:hover {
+    color: white !important; 
+    background-color: rgb(255, 0, 0);
+    border-radius: 0.5em;
+    transform: scale(0.8); 
+}
+
+.drop:hover{
+    background-color: red;
+}
+
+.btn2{transition: 0.3s;}
+
+.btn2:hover{transform: scale(1.1);}
+
+.icons a{color: rgb(174, 173, 173);}
+
+.icons a:hover{color: red;}
+
+.image {
+    position: relative;
+
+}
+
+.content {
+    height: 75%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    background: rgb(249, 62, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.6s;
+    color: white;
+}
+
+.image:hover .content {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(1.1); 
+}
+
+
+.content1{
+    height: 75%;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    background: rgb(249, 62, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.6s;
+    color: white;
+}
+
+.image:hover .content1 {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(1.1); 
+}
+
+.main5{
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    height: 80vh;
+}
+
+.text1:hover{color: red !important;}
+.links a:hover {
+    color: red !important;    
+}
+
+.icon1:hover{
+color: blue !important; 
+    }
+.icon2:hover{
+color: rgb(0, 149, 255) !important; 
+    }
+.icon3:hover{
+color: rgb(0, 255, 8) !important; 
+    }
+.icon4:hover{
+color: rgb(255, 0, 0) !important; 
+}
+/*------------------------------------------------------------------*/
+.forget:hover{
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+.sign:hover{
+    font-weight: bold;
+}
+    
+/*------------------------------------------------------------------*/
+
+.about-main{
+    background-image:url(images/about-us-page-heading.jpg) ;
+    width: 100%;
+    height:80vh;
+}
+
+/*------------------------------------------------------------------*/
+.men-main{
+    background-image:url(images/products-background.jpg) ;
+    width: 100%;
+    height:80vh;
+    background-size: cover;      
+    background-position: center;
+}  
+
+.panel1{
+    transition: 0.3s;
+}
+.panel1:hover{background-color: grey;
+color: white;
+transform: scale(1.05);
+}
