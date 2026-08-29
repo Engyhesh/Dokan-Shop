@@ -22,7 +22,7 @@ A simple and modern e-commerce product showcase website. The site allows users t
 ## 🚀 Live Demo
 
 Check out the live website:
-**https://engyhesh.github.io/Dokan-Shop/men's.html**
+**(https://engyhesh.github.io/Dokan-Shop/)**
 
 ---
 
